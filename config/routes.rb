@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   # root "posts#index"
   root "pages#index"
   get "user/:id", to: "pages#user"
+  resources :articles, only: [ :show, :index ]
   get "about", controller: "pages", action: :aboutCTR
 end

@@ -1,1 +1,83 @@
-<h1>How are you? Guys I am from Views Folder</h1>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
+        color: #22223b;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .container_body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+        padding: 3rem 2.5rem;
+        max-width: 600px;
+        width: 90%;
+        text-align: center;
+        margin-top: 5vh;
+    }
+    h1 {
+        color: #4f46e5;
+        margin-bottom: 0.5em;
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+    p {
+        font-size: 1.2rem;
+        color: #37306b;
+        margin-bottom: 2em;
+        line-height: 1.6;
+    }
+    .cta-btn {
+        background: #4f46e5;
+        color: #fff;
+        padding: 0.8em 2em;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: background 0.2s;
+        text-decoration: none;
+        box-shadow: 0 2px 8px rgba(79, 70, 229, 0.08);
+    }
+    .cta-btn:hover {
+        background: #3730a3;
+    }
+    @media (max-width: 600px) {
+        .container {
+            padding: 2rem 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+    }
+</style>
+<body>
+    <header style="width: 100%; background: #4f46e5; padding: 1.2rem 0; box-shadow: 0 2px 8px rgba(79, 70, 229, 0.08); text-align: center;">
+        <span style="color: #fff; font-size: 2rem; font-weight: 600; letter-spacing: 2px;">Dev Articles</span>
+    </header>
+    <div class="container_body">
+    <div class="container">
+    <h1>Welcome to Web Blogs!</h1>
+    <p>
+        Dive into a world of ideas, stories, and inspiration.<br>
+        Blogs are a wonderful way to share knowledge, express yourself, and connect with others.<br>
+        Whether you're here to read, write, or discover, our platform makes it easy and enjoyable.<br>
+        Start your blogging journey today and see how words can make a difference!
+    </p>
+    <a href="/articles" class="cta-btn">Explore Blogs</a>
+</div>
+</div>
+</body>

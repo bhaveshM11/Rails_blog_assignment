@@ -1,24 +1,9 @@
 # README
+This is assignment project to setup RAILS and Create 3 routes 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Home Page, About us and user
 
-Things you may want to cover:
+* Created Pages controller
 
-* Ruby version
+* use get, to and get controller action routing methods
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
